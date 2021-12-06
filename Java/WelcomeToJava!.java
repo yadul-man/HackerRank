@@ -1,3 +1,7 @@
+/* 
+There is no input for this challenge.
+*/
+
 public class Solution {
 
     public static void main(String[] args) {
