@@ -1,4 +1,4 @@
 # HackerRank
 #### My submissions to HackerRank
 
-Java progamming language used.
+Java and C progamming language used.
