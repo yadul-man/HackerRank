@@ -27,5 +27,6 @@ int main()
     
     scanf("%[^\n]%*c", sen);
     printf("%s\n",sen);
+    
     return 0;
 }
