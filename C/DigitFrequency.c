@@ -1,0 +1,31 @@
+/*
+Given a string, s, consisting of alphabets and digits, find the frequency of each digit in the given string.
+*/
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    char *s;
+    s = malloc(512 * sizeof(char));
+    scanf("%s", s);
+    s = realloc(s, strlen(s) + 1);
+    int len = strlen(s), i;
+    int arr[10] = {0};
+    
+    for (i = 0; i < len; i++) 
+    {
+        if(s[i] >= '0' && s[i] <= '9')
+            arr[(int)(s[i] - '0')]++;
+    }
+    
+    for(i = 0; i < 10; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+    free(s);
+    
+    return 0;
+}
