@@ -10,7 +10,7 @@ Given a string, s, consisting of alphabets and digits, find the frequency of eac
 int main() {
 
     char *s;
-    s = malloc(512 * sizeof(char));
+    s = malloc(2048 * sizeof(char));
     scanf("%s", s);
     s = realloc(s, strlen(s) + 1);
     int len = strlen(s), i;
